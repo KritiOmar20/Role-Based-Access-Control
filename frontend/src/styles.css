@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6200ea;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  nav button {
+    background-color: #03dac5;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #018786;
+    color: white;
+  }
+  
+  /* Forms */
+  form {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form select,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form input,
+  form select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Pages */
+  .page-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-container h2 {
+    color: #6200ea;
+  }
+  
+  .page-container p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    form {
+      width: 95%;
+    }
+  
+    nav a,
+    nav button {
+      margin: 5px 0;
+    }
+  }
+  
