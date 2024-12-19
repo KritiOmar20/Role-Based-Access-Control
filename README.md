@@ -91,7 +91,7 @@ This project is a **Role-Based Access Control (RBAC) System** implemented using 
 ### **5.Open the application at http://localhost:3000**
 
 ### **Folder Structure**
-
+```bash
 Role-Based-Access-Control/
 │
 ├── /backend
@@ -110,7 +110,7 @@ Role-Based-Access-Control/
 │   └── .env               # Frontend environment variables
 │
 └── .gitignore             # Files to ignore in Git
-
+```
 
 ### **Key Highlights
 1.Authentication Security:
